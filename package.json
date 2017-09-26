@@ -2,7 +2,7 @@
   "name": "request_header",
   "version": "1.0.0",
   "description": "FCC request header project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "runMe"
   },
