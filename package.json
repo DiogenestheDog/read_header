@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "FCC request header project",
   "main": "server.js",
-  "scripts": {
-    "test": "runMe"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DiogenestheDog/read_header.git"
