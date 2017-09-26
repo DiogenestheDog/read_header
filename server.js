@@ -7,5 +7,5 @@ let server = http.createServer(function(req, res) {
   //res.end(req.headers['x-forwarded-for'] + req.headers['accept-language'] + req.headers['user-agent']);
   res.end(JSON.stringify(resObj));
 });
-server.listen(port);
+server.listen(process.env.Port || port);
 console.log("listening on port " + port);
